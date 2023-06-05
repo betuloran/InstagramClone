@@ -1,0 +1,74 @@
+/*Navbar'ı yukarı sabitleyip sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağladım. İçerik ile birleşmemesi için body'e padding verdim.*/
+body{
+    padding-top: 5rem;
+}
+
+
+/*Navbar'ın başındaki logo class'ının içine 192px soldan margin verdim*/
+.logo{
+    margin-left: 192px;
+}
+
+/*Navbarın height'ını 54 px ve arkaplan rengini beyaz yaptım.*/
+nav{
+height: 54px;
+background-color: white;
+}
+
+/* CSS dosyası içindeki ::placeholder kısmının arkaplanına assets klasörü içinde bulunan arama simgesini ekledim ve resmin tekrar etmemesini sağladım. */
+::placeholder {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    background-position: 40%;
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/search-solid.svg);
+  }
+  .storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+  }
+  
+  .storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+  }
+  /* Class'da belirttiğimiz middlearea içinde maksimum yükseklik 200px olmalı ve bunu important ile yazmalısınız */
+.middlearea{
+  max-height: 200px !important;
+}
+/* Card header ve card footer'lar beyaz renk olmalı. */
+.card-header, .card-footer {
+  background-color: white;
+}
+  .postuserfont{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    color: black;
+  }
+
+/* Sağ panel için kullanılan stickysidebar ve rightpanel adında iki class var. Stickysidebar bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor, yani sayfa aşağı kayarken panel de görünmeye devam ediyor. Bunu sağlamak için CSS'in position property'sini kullandım. */
+#sticky-sidebar {
+  position: sticky;
+  top: 6rem;
+}
+
+/* Rightpanel'de de arkaplan rengi beyaz olup kenarlık olmamalı. */
+.rightpanel {
+  background-color: white;
+  border: none;
+} 
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
