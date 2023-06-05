@@ -1,21 +1,21 @@
-/*Navbar'ı yukarı sabitleyip sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağladım. İçerik ile birleşmemesi için body'e padding verdim.*/
+/*Navbar'ı yukarı sabitleyip sayfayı aşağı kaydırdığınızda hala yukarıda durmasını sağlayın. İçerik ile birleşmemesi için body'e padding verin.*/
 body{
     padding-top: 5rem;
 }
 
 
-/*Navbar'ın başındaki logo class'ının içine 192px soldan margin verdim*/
+/*Navbar'ın başındaki logo class'ının içine 192px soldan margin verin*/
 .logo{
     margin-left: 192px;
 }
 
-/*Navbarın height'ını 54 px ve arkaplan rengini beyaz yaptım.*/
+/*Navbarın height'ını 54 px ve arkaplan rengini beyaz yapın.*/
 nav{
 height: 54px;
 background-color: white;
 }
 
-/* CSS dosyası içindeki ::placeholder kısmının arkaplanına assets klasörü içinde bulunan arama simgesini ekledim ve resmin tekrar etmemesini sağladım. */
+/* CSS dosyası içindeki ::placeholder kısmının arkaplanına assets klasörü içinde bulunan arama simgesini ekleyin ve resmin tekrar etmemesini sağlayın. */
 ::placeholder {
     text-align: center;
     font-size: 14px;
@@ -52,7 +52,7 @@ background-color: white;
     color: black;
   }
 
-/* Sağ panel için kullanılan stickysidebar ve rightpanel adında iki class var. Stickysidebar bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor, yani sayfa aşağı kayarken panel de görünmeye devam ediyor. Bunu sağlamak için CSS'in position property'sini kullandım. */
+/* Sağ panel için kullanılan stickysidebar ve rightpanel adında iki class var. Stickysidebar bu panelin sayfayı aşağı kaydırdıkça onun da gelmesini sağlıyor, yani sayfa aşağı kayarken panel de görünmeye devam ediyor. Bunu sağlamak için CSS'in position property'sini kullanın. */
 #sticky-sidebar {
   position: sticky;
   top: 6rem;
